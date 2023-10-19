@@ -12,6 +12,10 @@ export default {
 
     theme: {
         extend: {
+            backgroundImage: {
+                'bgStyle': "url('/public/images/bg.png')",
+                // 'footer-texture': "url('/img/footer-texture.png')",
+            },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
